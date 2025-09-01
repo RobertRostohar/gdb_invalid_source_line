@@ -1,0 +1,14 @@
+project:
+  groups:
+    - group: Source Files
+      files:
+        - file: startup.S
+        - file: system.c
+        - file: main.c
+        - file: test.c
+  linker:
+    - script: gcc_arm.ld
+  output:
+    type:
+      - elf
+      - map
